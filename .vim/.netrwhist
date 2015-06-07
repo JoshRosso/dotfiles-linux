@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/joshrosso/sunMMC/mmc-distribution-mule-console-bundle-3.5.1'
+let g:netrw_dirhist_2='/Users/joshrosso/.vim/colors'
+let g:netrw_dirhist_3='/Users/joshrosso/.vim'

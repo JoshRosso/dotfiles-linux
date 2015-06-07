@@ -1,0 +1,9 @@
+Files in vim/*plugin are required for completion.
+
+Other files:
+* vim/after/ftplugin/docbk.vim
+  adds definitions for DocBook 4.3 and 4.4.
+* xml-compl-dtd.c
+  creates definition file from DTD (requires libxml2).
+
+Happy completing!
