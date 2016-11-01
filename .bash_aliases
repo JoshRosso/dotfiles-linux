@@ -9,6 +9,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias c='clear'
 alias l='ls -l'
+alias ll='ls -la'
 alias xclip='xclip -selection c'
 
 # Functions
