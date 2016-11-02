@@ -1,6 +1,7 @@
 # Graphical applications
 alias spotify='spotify &> /dev/null &'
 alias chrome='google-chrome &> /dev/null &'
+alias incogchrome='google-chrome --incognito &> /dev/null &'
 alias slack='slack &> /dev/null &'
 
 # Shortcuts
