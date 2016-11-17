@@ -20,10 +20,12 @@
 !!green     #859900  2/2 green     64 #5f8700 60 -20  65 133 153   0  68 100  60
 
 #define S_base03        #002b36
-#define S_base04        #00171d
+!!#define S_base04        #00171d
+#define S_base04        #ffffff
 #define S_base02        #073642
 #define S_base01        #586e75
-#define S_base00        #c1cacd
+!!#define S_base00        #c1cacd
+#define S_base00        #000000
 #define S_base0         #839496
 #define S_base1         #93a1a1
 #define S_base2         #eee8d5
