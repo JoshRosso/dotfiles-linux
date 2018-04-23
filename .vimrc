@@ -363,6 +363,7 @@ imap <C-g> <esc>:<C-u>GoDecls<cr>
 nmap <F1> :GoDoc<cr>
 nmap <F2> :GoBuild<cr>
 nmap <F3> :GoRun<cr>
+nmap <F12> !make run<cr>
 
 " run :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()
@@ -490,7 +491,9 @@ endif
 au InsertEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:UltiSnips_Complete()<cr>"
 au InsertEnter * exec "inoremap <silent> " . g:UltiSnipsJumpBackwardTrigger . " <C-R>=g:UltiSnips_Reverse()<cr>"
 
-
+" ==================== Tagbar ====================
+" automatically open tagbar when supported file is opened
+autocmd VimEnter * nested :call tagbar#autoopen(1)
 
 " ==================== Various other plugin settings ====================
 nmap  -  <Plug>(choosewin)
