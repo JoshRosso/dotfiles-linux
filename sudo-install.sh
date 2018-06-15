@@ -36,3 +36,4 @@ pacman -Sy --needed \
 
 printf "[main]\ndhcp=dhclient" > /etc/NetworkManager/conf.d/dhcp-client.conf
 systemctl enable NetworkManager
+systemctl enable bluetooth
