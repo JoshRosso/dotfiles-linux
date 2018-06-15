@@ -30,6 +30,8 @@ pacman -Sy --needed \
 	mutt \
 	jdk10-openjdk \
 	docker \
+	terraform \
+	the_silver_searcher \
 	xf86-video-intel
 
 printf "[main]\ndhcp=dhclient" > /etc/NetworkManager/conf.d/dhcp-client.conf
