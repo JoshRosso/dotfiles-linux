@@ -29,6 +29,7 @@ pacman -Sy --needed \
 	imagemagick \
 	mutt \
 	jdk10-openjdk \
+	docker \
 	xf86-video-intel
 
 printf "[main]\ndhcp=dhclient" > /etc/NetworkManager/conf.d/dhcp-client.conf
