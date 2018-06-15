@@ -32,8 +32,17 @@ if ! pacman -Qs kubectl > /dev/null; then
 	cd kubectl-bin && makepkg -si && cd $TEMP_DIR
 fi
 
+if ! pacman -Qs intellij-idea > /dev/null; then 
+	git clone https://aur.archlinux.org/intellij-idea-ultimate-edition.git
+	cd intellij-idea-ultimate-edition && makepkg -si && cd $TEMP_DIR
+fi
 
 if ! pacman -Qs ttf-symbola > /dev/null; then 
 	git clone https://aur.archlinux.org/ttf-symbola.git
 	cd ttf-symbola && makepkg -si && cd $TEMP_DIR
+fi
+
+if ! pacman -Qs zoom > /dev/null; then 
+	git clone https://aur.archlinux.org/zoom.git
+	cd zoom && makepkg -si && cd $TEMP_DIR
 fi
