@@ -32,8 +32,10 @@ pacman -Sy --needed \
 	docker \
 	terraform \
 	the_silver_searcher \
+	ttf-hack \
 	xf86-video-intel
 
 printf "[main]\ndhcp=dhclient" > /etc/NetworkManager/conf.d/dhcp-client.conf
+printf "[Policy]\nAutoEnable=true" > /etc/bluetooth/main.conf
 systemctl enable NetworkManager
 systemctl enable bluetooth
