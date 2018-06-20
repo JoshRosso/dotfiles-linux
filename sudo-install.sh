@@ -37,6 +37,7 @@ pacman -Sy --needed \
 
 printf "[main]\ndhcp=dhclient" > /etc/NetworkManager/conf.d/dhcp-client.conf
 printf "[Policy]\nAutoEnable=true" > /etc/bluetooth/main.conf
+echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
 systemctl enable NetworkManager
 systemctl enable bluetooth
 # enable time daemon
