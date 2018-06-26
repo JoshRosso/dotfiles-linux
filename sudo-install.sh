@@ -34,6 +34,7 @@ pacman -Sy --needed \
 	the_silver_searcher \
 	ttf-hack \
 	dnsutils \
+	jq \
 	xf86-video-intel
 
 printf "[main]\ndhcp=dhclient" > /etc/NetworkManager/conf.d/dhcp-client.conf
