@@ -33,6 +33,7 @@ pacman -Sy --needed \
 	terraform \
 	the_silver_searcher \
 	ttf-hack \
+	dnsutils \
 	xf86-video-intel
 
 printf "[main]\ndhcp=dhclient" > /etc/NetworkManager/conf.d/dhcp-client.conf
@@ -41,4 +42,5 @@ echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
 systemctl enable NetworkManager
 systemctl enable bluetooth
 # enable time daemon
-sudo timedatectl set-ntp true
+timedatectl set-ntp true
+echo "blacklist pcspkr" >> /etc/modprobe.d/blacklist
