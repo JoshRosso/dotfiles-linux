@@ -43,4 +43,7 @@ systemctl enable NetworkManager
 systemctl enable bluetooth
 # enable time daemon
 timedatectl set-ntp true
+
+# disable annoying beep
 echo "blacklist pcspkr" >> /etc/modprobe.d/blacklist
+sudo mkinitcpio -p linux
