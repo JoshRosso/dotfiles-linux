@@ -35,6 +35,7 @@ pacman -Sy --needed \
 	ttf-hack \
 	dnsutils \
 	jq \
+	pavucontrol \
 	xf86-video-intel
 
 printf "[main]\ndhcp=dhclient" > /etc/NetworkManager/conf.d/dhcp-client.conf
