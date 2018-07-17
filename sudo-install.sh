@@ -36,6 +36,7 @@ pacman -Sy --needed \
 	dnsutils \
 	jq \
 	pavucontrol \
+	intel-ucode \
 	xf86-video-intel
 
 printf "[main]\ndhcp=dhclient" > /etc/NetworkManager/conf.d/dhcp-client.conf
@@ -49,3 +50,6 @@ timedatectl set-ntp true
 # disable annoying beep
 echo "blacklist pcspkr" >> /etc/modprobe.d/blacklist
 sudo mkinitcpio -p linux
+
+# need to redo grub-mkconfig so it includes ucode launch before initramfs
+sudo grub-mkconfig -o /boot/grub/grub.cfg
