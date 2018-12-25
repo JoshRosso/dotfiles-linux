@@ -1,4 +1,4 @@
-PS1='\u @ \h (\w) [$(git branch 2>/dev/null | grep '^*' | colrm 1 2)]\n\$ '
+PS1='\u (\e[38;5;198m\w\e[0m) [\e[38;5;148m$(git branch 2>/dev/null | grep '^*' | colrm 1 2)\e[0m]\n\$ '
 
 # Environment / Path
 export GOPATH=/home/josh/dev/go
