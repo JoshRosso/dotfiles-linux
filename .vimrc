@@ -41,7 +41,6 @@ set expandtab "insert space when tab key is pressed
 set tabstop=2 "number of spaces inserted when tab is pressed
 set softtabstop=2 
 set shiftwidth=2 "number of spaces to use for each auto indent
-set list "show invisibles
 set cc=100 "draw bar down column 100
 
 let g:ackprg = 'ag --vimgrep' "use ag instead of ack
@@ -60,4 +59,4 @@ nnoremap <Leader>t :Tagbar<cr>
 nnoremap <leader>l :set list!<CR>
 "ctl+space for assist
 inoremap <C-@> <c-x><c-o>
-nnoremap <Leader>m :set spell<cr>
+nnoremap <Leader>m :set spell!<cr>
