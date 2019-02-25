@@ -9,41 +9,41 @@ cd $TEMP_DIR
 
 if ! pacman -Qs spotify > /dev/null; then 
 	git clone https://aur.archlinux.org/spotify.git
-	cd spotify && makepkg -si && cd $TEMP_DIR
+	cd spotify && makepkg -si --noconfirm && cd $TEMP_DIR
 fi
 
 if ! pacman -Qs slack > /dev/null; then 
 	git clone https://aur.archlinux.org/slack-desktop.git
-	cd slack-desktop && makepkg -si && cd $TEMP_DIR
+	cd slack-desktop && makepkg -si --noconfirm && cd $TEMP_DIR
 fi
 
 if ! pacman -Qs golang-dep > /dev/null; then 
 	git clone https://aur.archlinux.org/golang-dep.git
-	cd golang-dep && makepkg -si && cd $TEMP_DIR
+	cd golang-dep && makepkg -si --noconfirm && cd $TEMP_DIR
 fi
 
 if ! pacman -Qs signal-desktop > /dev/null; then 
 	git clone https://aur.archlinux.org/signal-desktop-bin.git
-	cd signal-desktop-bin && makepkg -si && cd $TEMP_DIR
+	cd signal-desktop-bin && makepkg -si --noconfirm && cd $TEMP_DIR
 fi
 
 if ! pacman -Qs kubectl > /dev/null; then 
 	git clone https://aur.archlinux.org/kubectl-bin.git
-	cd kubectl-bin && makepkg -si && cd $TEMP_DIR
+	cd kubectl-bin && makepkg -si --noconfirm && cd $TEMP_DIR
 fi
 
 if ! pacman -Qs ttf-symbola > /dev/null; then 
 	git clone https://aur.archlinux.org/ttf-symbola.git
-	cd ttf-symbola && makepkg -si && cd $TEMP_DIR
+	cd ttf-symbola && makepkg -si --noconfirm && cd $TEMP_DIR
 fi
 
 if ! pacman -Qs zoom > /dev/null; then 
 	git clone https://aur.archlinux.org/zoom.git
-	cd zoom && makepkg -si && cd $TEMP_DIR
+	cd zoom && makepkg -si --noconfirm && cd $TEMP_DIR
 fi
 
 if ! pacman -Qs dropbox > /dev/null; then 
 	gpg --recv-keys 1C61A2656FB57B7E4DE0F4C1FC918B335044912E
 	git clone https://aur.archlinux.org/dropbox.git
-	cd dropbox && makepkg -si && cd $TEMP_DIR
+	cd dropbox && makepkg -si --noconfirm && cd $TEMP_DIR
 fi
