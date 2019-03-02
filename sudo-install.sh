@@ -24,6 +24,7 @@ pacman -Sy --needed \
 	volumeicon \
 	bluez \
 	bluez-utils \
+	net-tools \
 	arandr \
 	ctags \
 	imagemagick \
@@ -31,6 +32,7 @@ pacman -Sy --needed \
 	jdk10-openjdk \
 	docker \
 	terraform \
+	ansible \
 	the_silver_searcher \
 	ttf-hack \
 	dnsutils \
