@@ -29,6 +29,8 @@ pacman -Sy --needed \
 	ctags \
 	imagemagick \
 	mutt \
+	remmina \
+  libvncserver \
 	jdk10-openjdk \
 	docker \
 	terraform \
