@@ -39,6 +39,7 @@ pacman -Sy --needed \
 	ttf-hack \
 	dnsutils \
 	jq \
+  nemo \
 	pavucontrol \
 	intel-ucode \
 	xf86-video-intel

@@ -92,8 +92,8 @@ Xft.hinting:    1
 Xft.antialias:  1
 
 ! -- Fonts -- !
-URxvt.font:xft:ttf-hack:pixelsize=16,style=normal,xft:Symbola:pixelsize=16,style=Regular
-URxvt.boldFont:xft:ttf-hack:style=Bold,pixelsize=16,xft:Symbola:pixelsize=16,style=Regular
+URxvt.font:xft:Hack:pixelsize=14:style=Bold,xft:Symbola:pixelsize=16:style=Regular,xft:Noto Color Emoji:pixelsize=16:style=Regular
+URxvt.boldFont:xft:Hack:style=Bold:pixelsize=14,xft:Symbola:pixelsize=16:style=Bold,xft:Noto Color Emoji:pixelsize=16:style=Bold
 
 *faceSize:              10
 *bellIsUrgent:          true
