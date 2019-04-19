@@ -19,7 +19,7 @@ pacman -Sy --needed \
 	chromium \
 	firefox \
 	dmenu \
-	vim --asdeps lua \
+	neovim \
 	alsa-utils \
 	volumeicon \
 	bluez \
@@ -58,3 +58,5 @@ sudo mkinitcpio -p linux
 
 # need to redo grub-mkconfig so it includes ucode launch before initramfs
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+localectl set-locale LANG=en_US.UTF-8
