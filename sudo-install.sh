@@ -30,6 +30,7 @@ pacman -Sy --needed \
 	imagemagick \
 	mutt \
 	remmina \
+	yarn \
   libvncserver \
 	jdk10-openjdk \
 	docker \
