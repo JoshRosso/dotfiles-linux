@@ -2,6 +2,7 @@
 pacman -Sy --needed \
 	networkmanager \
 	i3-wm \
+  pulseaudio-bluetooth \
 	i3status \
 	i3blocks \
 	i3lock \
@@ -39,6 +40,7 @@ pacman -Sy --needed \
 	the_silver_searcher \
 	ttf-hack \
 	dnsutils \
+  blueman \
 	jq \
   nemo \
 	pavucontrol \
