@@ -63,3 +63,5 @@ sudo mkinitcpio -p linux
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 localectl set-locale LANG=en_US.UTF-8
+
+sudo cp -v importc /usr/local/bin/
